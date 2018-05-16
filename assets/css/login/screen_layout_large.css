@@ -1,0 +1,58 @@
+.login-form{
+	padding: 20px;
+	float: right;
+}
+
+.login-form a{ 
+	float: right;
+	padding-right: 145px;
+	font-size: 12px;
+	color: #e1e1e1;
+	text-decoration: none;
+	padding-top: 6px;
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 475px;
+}
+
+.signup{
+	float: left;
+	width: 45%;
+	margin: 30px;
+}
+
+.signup h3{
+	font-size: 24px;
+	color: grey;
+	font-family: 
+}
+
+.promo{
+	float: right;
+	width: 45%;
+	padding-top: 75px;
+}
+
+.signup-form{
+	width: 60%;
+}
+
+.input-area{
+	border-radius: 5px; 
+	width: 96%;
+	margin: 5px;
+	min-height: 25px;
+}
+
+._e1{
+	width: 43%;
+}
+
+.logo{
+	font-size: 24pt;
+	padding: 27px;
+}
+

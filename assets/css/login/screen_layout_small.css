@@ -1,0 +1,94 @@
+header{
+	height: 213px;
+}
+
+.login-form{
+	padding: 20px;
+	float: left;
+}
+
+.login-form a{ 
+	float: right;
+	padding-right: 145px;
+	font-size: 12px;
+	color: #e1e1e1;
+	text-decoration: none;
+	padding-top: 6px;
+}
+
+._mdScrn{
+	width: 100%;
+	font-size: 10px;
+}
+
+.content{
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+}
+
+.signup{
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+.signup h3{
+	font-size: 24px;
+	color: grey;
+	padding-left: 15px;
+}
+
+.promo{
+	display: none;
+	float: left;
+	padding-top: 75px;
+}
+
+.signup-form{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.input-area{
+	border-radius: 5px; 
+	width: 96%;
+	margin: 5px;
+	min-height: 25px;
+}
+
+._e1{
+	width: 96%;
+}
+
+.agmt{
+	width: 100%;
+}
+
+._smScrn-select{
+	width: 28%;
+}
+
+._smscrn{
+	min-height: 25px;
+}
+
+#email_sign_in{
+	display: block;
+}
+
+.logo{
+	font-size: 15pt;
+	padding: 22px;
+	line-height: 30px;
+}
+
+.location{
+	border-radius: 5px;
+    margin: 5px;
+    min-height: 25px;
+	width: 44%;
+	font-size: 12px;
+}
+
+

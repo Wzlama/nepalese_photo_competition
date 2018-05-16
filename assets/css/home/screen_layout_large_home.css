@@ -1,0 +1,316 @@
+header ul{
+	float: right;
+	list-style: none;
+	padding-right: 50px;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	width: 45px;
+}
+
+header ul li a:hover {
+	color: #e1e1e1;
+	text-decoration: none;
+}
+
+.leftBar{
+	position: fixed;
+	float: left;
+	z-index: 7;
+	padding: 80px 10px 0 10px;
+	margin: 25px 10px 0 64px;
+	width: 16%;
+	height: 300px;
+}
+
+._content{
+	position: absolute;
+	z-index: 6;
+	left: 24%;
+	width: 49%;
+	height: auto;
+	padding: 100px 10px 0 10px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.content_photo{
+    position: absolute;
+    /* z-index: 6; */
+    left: 25%;
+    width: 100%;
+    min-height: 521px;
+    padding: 100px 10px 0 10px;
+    margin: 0 auto;    
+}
+
+.right-nav-bar{
+    display:none;
+	z-index: 7;
+	float: right;
+	position: fixed;
+	background: #8eb3cb;
+	height: 150px;
+	left: 76%;
+	width: 23%;
+	top: 15%;
+}
+
+.right-nav-bar h1{
+	font-size: 16px;
+	color: #e1e1e1;
+	line-height: 15px;
+}
+
+.right-nav-bar p{
+	font-size: 12px;
+	margin: 0 auto;
+	color: #e1e1e1;
+}
+
+/*advertisements in the home pages*/
+.n1h{
+	top: 13%;
+    background: #8eb3cb;
+}
+
+.n2h{
+	top: 39%;
+    background: #8eb3cb;
+}
+
+.n3h{
+	top: 65%;
+    background: #8eb3cb;
+}
+
+.n4h{
+    top:91%;
+    background: #ebebeb;
+}
+
+/*styles for the advertisements of profile page*/
+.n1{
+	top: 13%;
+    background: #8eb3cb;
+}
+
+.n2{
+	top: 29%;
+    background: #88b3cb;
+}
+
+.n3{
+	top:45%;
+    background: #8e63cb;
+}
+
+.n4{
+    top:61%;
+    background: #34343t;
+}
+
+.n5{
+    top:77%;
+    background:#eebdef;
+}
+
+.n6{
+    top:93%;
+    background:green;
+}
+
+.right-nav-bar h3{
+	font-size: 13px;
+	color: #e1e1e1;
+	line-height: 15px;
+}
+
+.postContainer{
+	background: #fff;
+	padding: 5px 10px 0px 10px;
+	height: 250px;
+}
+
+.uploadImg h3{
+	color: #3b5998;
+	font-size: 18px;
+	line-height: 15px;
+	padding:0 10px 0 10px;
+}
+
+.imagePreview{
+	height: 110px;
+	border: 1px dashed #e1e1e1;
+}
+
+.feed{
+	background: #fff;
+	height: auto;
+	margin: 25px 0 0 0;
+}
+
+.profileDesc{
+	background-color: #fff;
+	height: 75px;
+}
+
+.feedContent{
+	background-color: #fff;
+	height: 430px;
+}
+
+.revw{
+	background: #fff;
+	padding: 10px;
+	height: 50px;
+}
+
+.comment{
+	background: #C9CACF;
+	max-height: 250px;
+	overflow: auto;
+	width: 100%;
+	border: 1px solid #e1e1e1;
+}
+
+.side01{
+	height: 20px;
+	padding: 5px 0 5px 0;
+	color:  #fff;
+	font-size: 14px;
+	line-height: 10px;
+	background: #4384ae;;
+}
+
+.side02{
+	height: 35px;
+	padding: 5px 0 5px 0;
+	color:  #3b5998;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.side02:hover{
+	background: #fcfcfc;
+}
+
+.side03{
+	height: 115px;
+	padding: 5px 0 5px 0;
+}
+
+/*.side03:hover{*/
+/*	background: #fcfcfc;*/
+/*}*/
+
+
+.side04{
+	height: 20px;
+	padding: 15px 0 5px 0;
+	color:  #fff;
+	font-size: 14px;
+	line-height: 20px;
+	background: #4384ae;;
+	margin-top: 51px;
+}
+
+.side05{
+	max-height: 275px;
+	padding: 5px 0 5px 0;
+	color:  #3b5998;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: auto;
+	background: #fcfcfc;
+}
+
+.activity_wraper{
+	min-height: 48px;
+}
+
+.side05 a{
+	padding-left: 15px;
+	text-decoration: none;
+	font-size: 12px;
+} 
+
+.activity_wraper:hover{
+	color: #fff;
+	border:1px solid #3b5998;
+}
+
+.side05 p{
+	/*padding-left: 25px;*/
+}
+
+.side05 p:hover{
+	color: #fff;
+	background: #3b5998;
+}e
+
+.img-hldr img{
+	border: 1px solid #e1e1e1;
+	height: 375px;
+}
+
+#likedBy{
+	font-size: 14px;
+	line-height: 15px;
+	color: #9F9F9F;
+}
+
+.comment-hldr-text{
+	padding-left: 50px; 
+}
+
+.comment-hldr{
+	height: auto;
+    float: left;
+    width: 95%;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.comment-hldr a{
+	font-size: 18px;
+	line-height: 15px;
+	text-decoration: none;
+	color: #3b5998;
+}
+
+.comment-hldr span{
+	font-size: 14px;
+	line-height: 15px;
+	color: #555;	
+}
+
+.postComment{
+	width: 100%;
+    min-height: 49px;
+    margin: 0 auto;
+}
+
+.postButton{
+	width: 50%;
+    height: 30px;
+    color: #fff;
+    margin-left: 18%;
+    background: #4384ae;;
+}
+
+.user-img-pic{
+	width: 45px;
+	height: 45px;
+}
+
+.dialog{
+	min-width: 400px;
+}

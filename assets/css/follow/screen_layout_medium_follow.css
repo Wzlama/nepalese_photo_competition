@@ -1,0 +1,21 @@
+.desc-follow .btn-sub{
+	font-size: 12px;
+}
+
+.follow-np{
+	width: 20%;
+}
+
+.desc-follow .btn-sub{
+	background: #4384ae;;
+	color: #fff;
+	display: block;
+	border-radius: 1px solid #e1e1e1;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.prof-img-follow img{
+	width: 100%;
+	height: 132px;
+}

@@ -1,0 +1,28 @@
+.prof-img-follow{
+	border-bottom: 1px solid #e1e1e1;
+	width: 100%;
+}
+
+.follow-np{
+	width: 22%;
+}
+
+.prof-img-follow img{
+	width: 100%;
+    height: 120px;
+}
+
+.desc-follow .philo{
+	font-size: 13px;
+    line-height: 15px;
+    color: #3b5998;
+}
+
+.desc-follow .btn-sub{
+	background: #4384ae;;
+	color: #fff;
+	display: block;
+	border-radius: 1px solid #e1e1e1;
+	font-size: 15px;
+	cursor: pointer;
+}

@@ -1,0 +1,130 @@
+body{ margin: 0px; padding: 0px; }
+
+.login-page{ background: linear-gradient(to bottom right, white, #bcbdc4);  }
+
+header{
+	height: 75px;
+	background: #4384ae;
+	color: white;
+	z-index: 7;
+	font-family: verdana;
+}
+
+footer{
+	height: 100px;
+	background: #4384ae;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+.agmt{
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+	margin: 10px;
+}
+
+footer{ height: 90px;}
+
+footer ul{
+	padding-top: 30px;
+	list-style: none;
+}
+
+footer ul li{
+	display: inline;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0px 5px 0px 5px;
+}
+
+.notification{
+	float: right;
+    padding: 0 67px 0 0;
+    margin-top: 58px;
+    display: none;
+    width: 20%;
+    margin-right: 3%;
+    max-height: 622px;
+    overflow: auto;
+}
+
+.notification ul{
+	text-decoration: none;
+	width: 100%;
+}
+
+.notification ul li{
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+    background: #fff; 
+	border-top: 1px solid #e1e1e1;
+}
+
+.notification ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 12px;
+}
+
+.setting{
+	float: right;
+    padding: 0 67px 0 0;
+    margin-top: 58px;
+    display: none;
+    width: 20%;
+    margin-right: 3%;
+    max-height: 622px;
+    overflow: auto;
+}
+
+.setting ul{
+	text-decoration: none;
+	width: 100%;
+}
+
+.setting ul li{
+	text-decoration: none;
+	padding: 5px 0 5px 0;
+    background: #fff; 
+	border-top: 1px solid #e1e1e1;
+}
+
+.setting ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 12px;
+}
+
+.logo{
+	font-family: lato-bold;
+	line-height: 63px;
+}
+
+.location{
+	border-radius: 5px;
+    margin: 5px;
+    min-height: 25px;
+	width: 29%;
+	font-size: 12px;
+}
+
+.terms-hldr{
+	max-height: 495px;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.dev-hldr{
+	padding: 25px 0 0 0;
+    margin: 0 auto;
+    width: 75%;
+}

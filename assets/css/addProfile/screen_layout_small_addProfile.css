@@ -1,0 +1,49 @@
+.ch-profile-hldr{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 168px;		
+}
+
+.btn-upload{
+	background: #4384ae;;
+	width: 35px; 
+	height: 25px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none;
+	font-size: 10px; 
+	line-height: 15px;
+	color: #fff; 
+	padding-top:5px;
+}
+
+.btn-skip{
+	display: block; 
+	background: #4384ae;; 
+	width: 35px; 
+	height: 20px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none; 
+	font-size: 10px; 
+	line-height: 15px; 
+	float: right; 
+	color: #fff; 
+	padding-top:5px;
+}
+
+.ch-profile-header{
+	font-size: 14px;
+	height: 60px;
+}
+
+._notifications{
+	width: 65%;
+	min-height: 500px;
+	padding: 162px   10px 0 10px;
+	margin-left: 6%;
+}
+
+.main-body {
+    min-height: 240px;
+}

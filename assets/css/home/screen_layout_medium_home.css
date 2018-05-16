@@ -1,0 +1,114 @@
+header{
+	height: 115px;
+}
+
+header ul{
+	float: left;
+	list-style: none;
+	padding-right: 50px;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 10px;
+	width: 45px;
+}
+
+header ul li a:hover {
+	color: #e1e1e1;
+	text-decoration: none;
+}
+
+.leftBar{
+	display: none;
+}
+
+._content{
+	width: 80%;
+	height: auto;
+	padding: 100px 10px 0 10px;
+	margin:0 auto;
+	left: 8%;
+}
+
+.img-desc{
+	padding: 5px 15px 10px 10px;
+	color: #000;
+	font-size: 12px;
+	line-height: 18px;
+	width: 92%;
+	max-height: 25px;
+	overflow: auto;
+}
+
+.comment{
+	max-height: 300px;
+	overflow: auto;
+}
+
+.profileDesc img{
+	height: 40px;
+}
+
+.img-hldr img{
+	border: 1px solid #e1e1e1;
+	height: 400px;
+}
+
+#likedBy{
+	font-size: 14px;
+	line-height: 15px;
+	color: #9F9F9F;
+}
+
+
+.feedContent{
+	background-color: #fff;
+	height: 450px;
+}
+
+.comment-hldr{
+	height: auto;
+}
+
+.comment-hldr a{
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.comment-hldr span{
+	font-size: 12px;
+	line-height: 18px;	
+}
+
+.comment{
+	width: 100%;
+}
+
+.sm-prof-desc {
+    width: 12%;
+}
+
+.user-img-pic{
+	width: 45px;
+	height: 45px;
+}
+
+.dialog{
+	min-width: 300px;
+}
+
+#search-text{
+	width: 134%;
+}
+
+.right-nav-bar{
+	display: none;
+}

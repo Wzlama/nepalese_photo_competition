@@ -1,0 +1,190 @@
+header{
+	position: fixed;
+	height: auto;	
+	background: #4384ae;
+	color: white;
+	width: 100%;
+	z-index: 7;
+	font-family: verdana;
+}
+
+header ul{
+	float: left;
+	list-style: none;
+	padding-right: 50px;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 10px;
+	line-height: 15px;
+	width: 45px;
+}
+
+header ul li a:hover {
+	color: #e1e1e1;
+	text-decoration: none;
+}
+
+.leftBar{
+	display: none;
+}
+
+._content{
+	width: 80%;
+	height: auto;
+	padding: 225px 10px 0 10px;
+	margin:0 auto;
+}
+
+#caption{
+	width: 100%;
+	height: 20px;
+	max-height: 35px;
+	border: 1px solid #e1e1e1;
+	font-size: 12px;
+}
+
+#btn-browse{
+	border-radius: 5px;
+	font-size: 9px;
+	color: #3b5998; 
+}
+
+#btn-post{
+	float: right;
+	border-radius: 5px;
+	padding: 2px 0 0 0;
+	width: 25px;
+	background: #4384ae;
+	color: #fff;
+	font-size: 10px;
+}
+
+._content{
+	left: 9%;
+}
+
+.content_photo{
+    left:9%;
+}
+
+.profileDesc{
+	height: 50px;
+}
+
+.profileDesc img{
+	height: 30px;
+}
+
+.feed{
+	background: #fff;
+	height: auto;
+	margin: 10px 0 0 0;
+}
+
+.feed_photo{
+	background: #fff;
+	height: auto;
+	width: 150%;
+	margin: 10px 0 0 0;
+}
+
+.feedContent{
+	height: 250px;
+	width:100%;
+}
+
+.comment{
+	max-height: 200px;
+	overflow: auto;
+}
+
+.img-desc{
+	padding: 5px 15px 10px 10px;
+	color: #000;
+	font-size: 10px;
+	line-height: 18px;
+	width: 90%;
+	max-height: 25px;
+	overflow: auto;
+}
+
+.img-hldr img{
+	border: 1px solid #e1e1e1;
+	height: 155px;
+}
+
+.revw span a{
+	text-decoration: none;
+	color: #9F9F9F;
+	padding-right: 20px;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+#likedBy{
+	font-size: 10px;
+	line-height: 15px;
+	color: #9F9F9F;
+}
+
+.comment-hldr{
+	height: auto;
+}
+
+.comment-hldr a{
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.comment-hldr span{
+	font-size: 12px;
+	line-height: 18px;	
+}
+
+.active{
+	background: #C9CACF;
+}
+
+.postComment{
+	width: 100%
+    min-height: 20px;
+}
+
+.postButton{
+	width: 50%;
+    height: 20px;
+}
+
+.comment{
+	width: 100%;
+}
+
+.sm-prof-desc {
+    width: 15%;
+}
+
+.user-img-pic{
+	width: 40px;
+	height: 30px;
+}
+
+.dialog{
+	font-size: 14px;
+	min-width: 150px;
+}
+
+#search-text{
+	width: 294%;
+}
+
+.right-nav-bar{
+	display: none;
+}

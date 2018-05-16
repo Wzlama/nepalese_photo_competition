@@ -1,0 +1,225 @@
+#search-form{
+	display: inline-block;
+	margin: 2% 0 0 7%;
+	width: 30%;
+}
+
+body{ margin: 0px; padding: 0px; font-family: Helvetica, Arial, sans-serif; background: #351818;}
+
+hr{ background: #e1e1e1; }
+
+.profile-page{ 
+    /*background: linear-gradient(to bottom right, white, #bcbdc4);*/
+    /*min-height: 1400px;*/
+}
+
+/*.photo-page{ background: linear-gradient(to bottom right, white, #bcbdc4); }*/
+
+.feed_photo{
+	background: #fff;
+}
+
+header{
+	position: fixed;
+	background: #4384ae;
+	color: white;
+	width: 100%;
+	z-index: 7;
+	font-family: verdana;
+}
+
+.clear-fix{
+	clear: both;
+}
+
+.timelinex{
+	background: #fff;
+	height: 500px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header-aboutx{
+	height: 45px;
+	background: #4384ae;
+	font-size: 20px;
+	line-height: 20px;
+	padding: 10px;
+	color: #fff;
+}
+
+.about-main{
+	height: auto;
+	background: #fff;
+}
+
+.info-usr{
+	float: left; 
+	width: 45%;
+	color: #3b5998; 
+}
+
+.info-usr h3{
+	padding-left: 35px;
+}
+
+.info-usr form{
+	padding: 5px 10px 5px 10px;
+}
+
+.prof-usr{
+	float: left;
+	width: 45%;
+	padding-left: 35px;
+}
+
+.prof-usr img{
+	width: 75%;
+	height: 330px;
+	padding: 70px 30px 30px 30px;
+}
+
+.user-info{
+	font-size: 14px;
+}
+
+.form-group{
+	font-family:  Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	color:#fff;
+}
+
+.form-control{
+	border: none;
+	margin: 15px 23px 15px 20px;
+}
+
+.form-control:hover{
+	border: 1px solid #e1e1e1;
+}
+
+.txt{
+	width: 95%;
+	height: 80px;
+}
+
+.btn-edit{
+	background: #4384ae;
+	height: 30px;
+	width: 50px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btn-edit:hover{
+	background: #6d81aa;
+}
+
+.btn-fin-edit{
+	float: right;
+	background: #4384ae;
+	height: 30px;
+	width: 80px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.btn-fin-edit:hover{
+	background: #6d81aa;	
+}
+
+.follow-hldr{
+	width: 100%;
+	height: auto;
+	color: #325998;
+	line-height: 15px;
+	padding:10px;	
+}
+
+.user-img-hldr{
+	float: left;
+}
+
+.comment{
+	display: none;
+	width: 99%;
+	margin-left: 3px;
+}
+
+.testOverlap:after{
+	content:'';
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image:url(http://www.labiennale.org/img/play_icon.png);
+}
+
+.username p{
+	font-size: 12px;
+	color: #c4c4c4;
+}
+
+.username p:hover{
+	cursor: pointer;
+	color: #3b5998;
+}
+
+.cover p{
+	font-size: 12px;
+	color: #c4c4c4;
+}
+
+.cover p:hover{
+	cursor: pointer;
+	color: #3b5998;
+}
+
+.prof-usr a{
+	text-decoration: none;
+	color: #a1a1a8;
+}
+
+.prof-usr a:hover{
+	color: #3b5998
+}
+
+.prof-usr a p{
+	padding: 0 0 0 32px;
+}
+
+main{width: 47%; height: 100%; position: absolute; z-index: 9;}
+
+#appear_image_div{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	opacity: 0.6;
+	background: #000;
+}
+
+#appear_image{
+	display: block;
+	margin: auto;
+	position: relative;
+	z-index: 11;
+	top: 118px;
+}
+
+#close_img{
+	position: fixed;
+	z-index: 12;
+	top: 80px;
+	right: 20px;
+	cursor: pointer;
+}
+
+#close_img:hover{
+	opacity: 0.7
+}

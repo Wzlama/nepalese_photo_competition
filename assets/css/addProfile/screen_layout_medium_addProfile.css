@@ -1,0 +1,32 @@
+.ch-profile-hldr{
+	width: 90%;
+	margin: 0 auto;	
+}
+
+.btn-upload{
+	background: #4384ae;;
+	width: 3	5px; 
+	height: 25px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none; 
+	font-size: 10px; 
+	line-height: 15px;
+	color: #fff; 
+	padding-top:5px;
+}
+
+.btn-skip{
+	display: block; 
+	background: #4384ae;; 
+	width: 35px; 
+	height: 20px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none; 
+	font-size: 10px; 
+	line-height: 15px; 
+	float: right; 
+	color: #fff; 
+	padding-top:5px;
+}

@@ -1,0 +1,130 @@
+
+/*.change-profile-page{ min-height: 882px; background: linear-gradient(to bottom right, white, #bcbdc4); }*/
+
+.ch-profile-hldr{
+	background: #fff;
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 80px;
+	border: 1px solid #e1e1e1;
+}
+
+.ch-profile-header{
+	color: #3b5998;
+	height: 30px;
+	line-height: 20px;
+	font-size: 18px;
+	padding-left: 25px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+._notifications{
+	width: 65%;
+	min-height: 500px;
+	padding: 100px 10px 0 10px;
+	margin-left: 6%;
+}
+
+._notifications ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #edf2fa;
+}
+
+._notifications ul li{	
+	padding: 5px 0 5px 35px;
+	border-bottom: 1px solid #dddfe2; 
+}
+
+._notifications ul li span{
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 15px;
+	cursor: pointer;
+	color: #9F9F9F;
+}
+
+._notifications ul li span:hover{
+	color: orange;
+}
+
+#setting_form{
+	border: 1px solid #e1e1e1;
+	text-align: center;
+}
+
+#deactivate-acc{
+	float: right;
+	text-align: center;
+	color: #075608;
+	background: #73acf5;
+	width: 31%;
+	padding: 10px;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+.form-group{
+	padding-top: 20px;
+}
+
+.form-group label{
+	font-size: 14px;
+	line-height: 12px;
+}
+
+.form-group span{
+	padding: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.main-body{
+	padding:10px 20px 10px 25px;
+	text-align: center;
+	max-height: 227px;
+	overflow: auto;
+	min-height: 391px;
+}
+
+.image-preview{
+	width: 100%;
+	min-height: 120px;
+}
+
+.image-preview img{
+	width: 50%;
+	max-height: 350px;
+	border-bottom: 1px solid orange;
+	padding: 5px;
+}
+
+.btn-upload{
+	background: #4384ae;
+	width: 75px; 
+	height: 35px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none; 
+	font-size: 16px; 
+	line-height: 15px;
+	color: #fff; 
+	padding-top:5px;
+}
+
+.btn-skip{
+	display: block; 
+	background: #4384ae; 
+	width: 75px; 
+	height: 25px; 
+	text-align: center; 
+	border-radius: 5px; 
+	text-decoration:none; 
+	font-size: 16px; 
+	line-height: 15px; 
+	float: right; 
+	color: #fff; 
+	padding-top:10px;
+}
